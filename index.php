@@ -1,6 +1,4 @@
-<?php
-
-<?php
+<?
 
 print 'hello world!br />';
 
