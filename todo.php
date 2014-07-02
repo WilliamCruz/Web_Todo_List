@@ -52,7 +52,7 @@ do {
         $items = array_values($items);
     // Remove from array
     } elseif ($input == 'S' || $input == 's') {
-        sort_menu(); 
+        $items = sort_menu($items); 
     }
     // array_unshift($items)      
 } while ($input != 'Q' && $input != 'q'); 
